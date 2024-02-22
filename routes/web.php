@@ -16,3 +16,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('home');
 });
+
+Route::any('/shop.blade.php', function () {
+    return view('shop');
+});
+
+Route::any('/contancts.blade.php', function () {
+    return view('contancts');
+});
